@@ -27,4 +27,9 @@ public class BaseController {
 		return message;
 	}
 
+	@GetMapping("/test")
+	public String testing() {
+		return "Testing Completed";
+	}
+
 }
